@@ -19,7 +19,7 @@ export default function FoodReviewPage() {
         Your rating
       </Title>
 
-      <Rating size="lg" />
+      <Rating size="lg" defaultValue={0} />
 
       <Textarea
         label="Your review"
